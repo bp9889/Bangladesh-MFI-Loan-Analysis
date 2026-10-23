@@ -18,3 +18,7 @@
 - Number of loans outstanding is missing in about 43% of rows; average loan size uses
   Gross Loan Portfolio / Number of active borrowers instead
 - Treat 2017 as the last reliable year for sector-level totals
+
+## MRA sector figures
+- Hand-entered headline figures in data/clean/mra_sector_yearly.csv with source URL per row
+- Units: Tk crore (1 crore = 10 million). Sources conflict on units (one gives FY23 as 2.49 billion; correct figure is 2.49 trillion)

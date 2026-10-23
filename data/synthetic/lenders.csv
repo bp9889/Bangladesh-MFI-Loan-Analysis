@@ -1,0 +1,6 @@
+lender_id,lender_name,target_borrower_share
+1,Lender A,0.35
+2,Lender B,0.25
+3,Lender C,0.2
+4,Lender D,0.12
+5,Lender E,0.08

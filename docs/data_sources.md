@@ -14,7 +14,7 @@
 
 ## Known issues
 - Number of MFIs reporting varies by year (28 to 40), so yearly totals partly reflect who reported
-- 2018 is unreliable: Grameen Bank has no 2018 row and BRAC's borrower count falls sharply
+- 2018 is unreliable: Grameen Bank has no 2018 row and BRAC's 2018 borrower count is blank
 - Number of loans outstanding is missing in about 43% of rows; average loan size uses
   Gross Loan Portfolio / Number of active borrowers instead
 - Treat 2017 as the last reliable year for sector-level totals

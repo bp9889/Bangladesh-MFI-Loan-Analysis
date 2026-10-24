@@ -2,7 +2,7 @@
 
 Bangladeshi microfinance institutions (MFIs) report loan recovery rates around 98%. This SQL project asks two questions: **at what debt-to-income ratio do borrowers start defaulting, and can loan stacking (one borrower juggling loans from several lenders) be detected?**
 
-Stack: PostgreSQL, Python (pandas, numpy, matplotlib).
+Stack: PostgreSQL, Python (pandas, numpy, matplotlib), Power BI. Install the Python packages with `pip install -r requirements.txt`.
 
 ## What is real and what is synthetic
 
@@ -72,3 +72,4 @@ The `answer_key` table holds the hidden stacker labels. It is read only to score
 ## SQL techniques used
 
 Window functions (`SUM() OVER`, `RANK`, `LAG`, running totals), CTEs, self-joins on date overlap, `CASE WHEN` bucketing, `FILTER` aggregates, views, `date_trunc`, foreign keys and `CHECK` constraints.
+
